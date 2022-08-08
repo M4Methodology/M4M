@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Models :: M4 Methodology</title>
+    <meta name="generator" content="Antora 3.0.3">
+    <link rel="stylesheet" href="../../../_/css/site.css">
+<link rel="stylesheet" href="../../../_/css/m4m.css">
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <script>var uiRootPath = '../../../_'</script>
+  </head>
+  <body class="article">
+<header class="header">
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="../../..">
+                <img src="../../../_/images/logo.png" width=100 alt="Logo"/>
+                &nbsp;
+                M4 Methodology
+            </a>
+            <button class="navbar-burger" data-target="topbar-nav">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <div id="topbar-nav" class="navbar-menu">
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <input id="search-input" placeholder="Search docs" onfocusout="this.value=''"
+                        style="font-size: 16px;" />
+                </div>
+            </div>
+        </div>
+    </nav>
+</header><div class="body">
+<div class="nav-container" data-component="m4m" data-version="v1">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="../index.html">M4 Methodology</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="index.html">Overview</a>
+<ul class="nav-list">
+  <li class="nav-item is-current-page" data-depth="2">
+    <a class="nav-link" href="models.html">Models</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="modules.html">Modules</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="messages.html">Messages</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="memories.html">Memories</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../design/index.html">Design</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../design/cqrs.html">Command Query Responsibility Separation</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../design/ddd.html">Domain-Driven Design</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../design/event-sourcing.html">Event Sourcing</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../design/micro-services.html">Microservices</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../development/index.html">Development</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../development/axonframework.html">Axon Framework</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../development/axonserver.html">Axon Server</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../development/eventstore.html">EventStore</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../development/kafka.html">Kafka</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">M4 Methodology</span>
+    <span class="version">v1</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <a class="title" href="../index.html">M4 Methodology</a>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../index.html">v1</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../index.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="../index.html">M4 Methodology</a></li>
+    <li><a href="index.html">Overview</a></li>
+    <li><a href="models.html">Models</a></li>
+  </ul>
+</nav>
+  <div class="edit-this-page"><a href="https://github.com/M4Methodology/M4M/edit/main/content/modules/ROOT/pages/overview/models.adoc">Edit this Page</a></div>
+  </div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Models</h1>
+<div id="preamble">
+<div class="sectionbody">
+<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p>All models are wrong, but some are useful</p>
+</div>
+</blockquote>
+<div class="attribution">
+&#8212; George E. P. Box
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_rationale"><a class="anchor" href="#_rationale"></a>Rationale</h2>
+<div class="sectionbody">
+<div class="paragraph text-justify">
+<p>One of the main tasks <em>(often the first one)</em> software engineers must accomplish is to define the data structures and operations that accurately represent the characteristics and functionality of <code>originals</code> <em>(natural or imaginary objects or systems)</em>. In other words, they create virtual <code>models</code>. A <code>model</code> may be very explicit <em>(for example, in object-oriented programming)</em> or somewhat subtle <em>(for instance, in functional programming)</em>. Nevertheless, it is crucial as it affects the software system&#8217;s scope and implies constraints.</p>
+</div>
+<div class="paragraph text-justify">
+<p>Creating a 100% accurate <code>model</code> of any non-trivial <code>original</code> is virtually impossible. Furthermore, any modern programming language allows for multiple representations. For example, a <code>model</code> can be a single structure or multiple interlinked ones. It may or may not use inheritance, polymorphism, or other language-specific constructs. While those concepts are not relevant to the <code>original</code>, they impact the <code>model</code> and the system&#8217;s ability to interact with it. Thus tremendous effort goes into making the most convenient <code>model</code> possible. Coming up with a suitable <code>model</code> is not only a baffling task but also one with long-lasting consequences.</p>
+</div>
+<div class="admonitionblock note todo">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>explain the issues / challenges</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>premature design</p>
+</li>
+<li>
+<p>behavior as a function of state</p>
+</li>
+<li>
+<p>lack of wider understanding (outside IT)</p>
+</li>
+<li>
+<p>hard to change without braking related components</p>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_guidelines"><a class="anchor" href="#_guidelines"></a>Guidelines</h2>
+<div class="sectionbody">
+<div class="admonitionblock note todo">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="ulist">
+<ul>
+<li>
+<p>behavior vs state</p>
+</li>
+<li>
+<p>one behavior model multiple state models</p>
+</li>
+<li>
+<p>interactions through messages</p>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_value_added"><a class="anchor" href="#_value_added"></a>Value added</h2>
+<div class="sectionbody">
+<div class="admonitionblock note todo">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="ulist">
+<ul>
+<li>
+<p>shared understanding</p>
+</li>
+<li>
+<p>just enough design</p>
+</li>
+<li>
+<p>agility and resolvability</p>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_compliance_evaluation"><a class="anchor" href="#_compliance_evaluation"></a>Compliance evaluation</h2>
+<div class="sectionbody">
+<div class="admonitionblock note todo">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>define yes/no questions to ask when assessing if given concept/practice/product helps with building system according to the above</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p>This page was built using the Antora default UI.</p>
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.</p>
+</footer>
+<script src="../../../_/js/site.js"></script>
+<script async src="../../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>
