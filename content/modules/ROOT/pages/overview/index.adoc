@@ -28,7 +28,7 @@ For more information, read the xref:ROOT:overview/modules.adoc[modules] part of 
 A software system where individual components cannot interact with each other and exchange information is hardly practical. Conversely, when every member can arbitrarily interact with any other, the system inevitably evolves into unmaintainable dependency hell. Modularity has little to no value if every module needs every other module to function correctly.
 
 [.text-justify]
-The golden mean for cross-component #communication# is to exchange messages. Those are explicitly defined data structures that may carry payload and adhere to specific routing patterns. They are part of a public or shared API, which must not change unless all components using it agree with the change.
+The golden mean for #structured cross-component communication# is to exchange messages. Those are explicitly defined data structures that may carry payload and adhere to specific routing patterns. They are part of a public or shared API, which must not change unless all components using it agree with the change.
 
 For more information, read the xref:ROOT:overview/messages.adoc[messages] part of M4M.
 

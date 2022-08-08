@@ -1,6 +1,12 @@
 = Design
 
-TODO
+[NOTE.todo]
+====
+intro to compliant design patterns and concepts
+====
+
+
+== Compliance table
 
 [%header,cols="3,1,1,1,1"]
 |===

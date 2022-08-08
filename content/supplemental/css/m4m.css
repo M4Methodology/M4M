@@ -17,10 +17,10 @@ a.external::after {
 }
 
 mark {
-    background-color: snow;
+    background-color: honeydew;
     font-variant: small-caps;
     font-stretch: extra-expanded;
-    border: 1px solid thistle;
+    border: 1px solid #40c3be;
     padding: 4px;
     padding-top: 1px;
 }

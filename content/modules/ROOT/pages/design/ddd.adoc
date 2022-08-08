@@ -2,23 +2,44 @@
 
 == What is it?
 
-TODO
+[NOTE.todo]
+====
+ - brief description
+ - relevance to M4M's goals
+ - links to documentation and other resources
+====
 
 == Compliance
 
 
 === 🟢 Models
 
-TODO
+[NOTE.todo]
+====
+compliance details
+====
+
 
 === 🟢 Modules
 
-TODO
+[NOTE.todo]
+====
+compliance details
+====
+
 
 === 🟡 Messages
 
-TODO
+[NOTE.todo]
+====
+compliance details
+====
+
 
 === 🔴 Memories
 
-TODO
+[NOTE.todo]
+====
+compliance details
+====
+
