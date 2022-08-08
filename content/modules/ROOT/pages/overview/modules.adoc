@@ -1,0 +1,37 @@
+= Modules
+
+== Rationale
+
+[.text-justify]
+Programming languages support, suggest, guard, and sometimes even enforce code decomposition _(statements, methods, procedures, functions, macros, classes, packages, modules, etc)_. While they provide the tools, they can not evaluate the complexity, meaningfulness or logical consistency of the actual implementation. The same holds true for to the tools helping developers with building, deploying and maintaining applications.
+
+
+[NOTE.todo]
+====
+explain the issues / challenges
+====
+
+== Guidelines
+
+[NOTE.todo]
+====
+ - logical boundaries vs. deployment units
+ - ?
+ - ?
+====
+
+== Value added
+
+[NOTE.todo]
+====
+ - deployment strategy agonistic
+ - ?
+ - ?
+====
+
+== Compliance evaluation
+
+[NOTE.todo]
+====
+define yes/no questions to ask when assessing if given concept/practice/product helps with building system according to the above
+====

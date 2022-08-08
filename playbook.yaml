@@ -1,0 +1,13 @@
+site:
+  title: M4 Methodology
+  start_page: m4m::index.adoc
+content:
+  sources:
+  - url: ./
+    branches: HEAD
+    start_path: content
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+  supplemental_files: ./content/supplemental

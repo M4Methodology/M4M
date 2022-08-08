@@ -1,0 +1,7 @@
+name: m4m
+version: v1
+title: M4 Methodology
+start_page: ROOT:index.adoc
+
+nav:
+  - modules/ROOT/nav.adoc

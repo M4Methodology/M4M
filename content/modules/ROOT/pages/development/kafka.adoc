@@ -1,0 +1,24 @@
+= Kafka
+
+== What is it?
+
+TODO
+
+== Compliance
+
+
+=== 🔴 Models
+
+TODO
+
+=== 🟢 Modules
+
+TODO
+
+=== 🟡 Messages
+
+TODO
+
+=== 🔴 Memories
+
+TODO

@@ -1,0 +1,33 @@
+= Messages
+
+== Rationale
+
+[NOTE.todo]
+====
+explain the issues / challenges
+====
+
+== Guidelines
+
+[NOTE.todo]
+====
+ - commands, queries, events
+ - ?
+ - ?
+====
+
+== Value added
+
+[NOTE.todo]
+====
+ - deployment strategy agonistic
+ - ?
+ - ?
+====
+
+== Compliance evaluation
+
+[NOTE.todo]
+====
+define yes/no questions to ask when assessing if given concept/practice/product helps with building system according to the above
+====

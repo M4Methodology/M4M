@@ -1,0 +1,43 @@
+= Overview
+
+The M4 stands for **M**odels, **M**odules, **M**essages, and **M**emories! Those are four distinct yet often related groups of software design characteristics.
+
+== Models
+
+[.text-justify]
+Almost all applications must maintain virtual models _(collection of classes, objects, data structures, methods, functions, etc.)_ of existing _(well, sometimes imaginary)_ items, invariants, concepts, processes, etc. before they can provide any meaningful functionality.
+
+[.text-justify]
+How developers construct the virtual models is crucial. It has a significant impact on the maintainability and evolvability of the application. Poorly designed models are usually the root cause of accumulating technical depth. Good models provide #an unambiguous shared understanding# of the system among all stakeholders. They make it easy to reason about the impact of a change before it is applied.
+
+For more information, read the xref:ROOT:overview/models.adoc[models] part of M4M.
+
+== Modules
+
+[.text-justify]
+Any application of a reasonable size must be somehow logically divided into smaller and easier to comprehend units. The cognitive limitations of humans impose that implicit and absolute requirement. Because "small" and "easier" are relative terms, developers often further divide such units into smaller ones or combine a few into larger ones, forming a tree-like structure.
+
+[.text-justify]
+Module in M4M refers to any such unit regardless of size and complexity. By far more significant characteristic of a module is its #boundaries#. Well-designed modules provide explicit APIs to communicate with other modules and prevent internals from leaking outside the module boundaries. Failing to do so adds additional accidental complexity to the system.
+
+For more information, read the xref:ROOT:overview/modules.adoc[modules] part of M4M.
+
+== Messages
+
+[.text-justify]
+A software system where individual components cannot interact with each other and exchange information is hardly practical. Conversely, when every member can arbitrarily interact with any other, the system inevitably evolves into unmaintainable dependency hell. Modularity has little to no value if every module needs every other module to function correctly.
+
+[.text-justify]
+The golden mean for cross-component #communication# is to exchange messages. Those are explicitly defined data structures that may carry payload and adhere to specific routing patterns. They are part of a public or shared API, which must not change unless all components using it agree with the change.
+
+For more information, read the xref:ROOT:overview/messages.adoc[messages] part of M4M.
+
+== Memories
+
+[.text-justify]
+The longer the lifespan of an application is, the higher the chance of a change request that requires information that was available at some point but currently is not. Attempts to predict and prepare for future use cases almost always lead to premature decision-making and over-engineering.
+
+[.text-justify]
+When systems' components communicate through messages, they publish specific message types on every state change. If the system can store those messages indefinitely, it essentially forms memories. Memories give access to all past states at any time in the future, allowing for #deferred decision-making#.
+
+For more information, read the xref:ROOT:overview/memories.adoc[memories] part of M4M.

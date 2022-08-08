@@ -1,0 +1,27 @@
+{{! This Source Code Form is subject to the terms of the Mozilla Public }}
+{{! License, v. 2.0. If a copy of the MPL was not distributed with this }}
+{{! file, You can obtain one at http://mozilla.org/MPL/2.0/. }}
+<header class="header">
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="{{{or site.url (or siteRootUrl siteRootPath)}}}">
+                <img src="{{{uiRootPath}}}/images/logo.png" width=100 alt="Logo"/>
+                &nbsp;
+                {{site.title}}
+            </a>
+            <button class="navbar-burger" data-target="topbar-nav">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <div id="topbar-nav" class="navbar-menu">
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <input id="search-input" placeholder="Search docs" onfocusout="this.value=''"
+                        style="font-size: 16px;" />
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>

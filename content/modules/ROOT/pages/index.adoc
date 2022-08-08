@@ -1,0 +1,53 @@
+= M4 Methodology
+:technical-depth: https://en.wikipedia.org/wiki/Technical_debt
+:accidental-complexity: https://en.wikipedia.org/wiki/No_Silver_Bullet
+:overengineering: https://en.wikipedia.org/wiki/Overengineering
+:dependency-hell: https://en.wikipedia.org/wiki/Dependency_hell
+
+== Introduction
+
+[.text-justify]
+The M4 methodology (M4M) is a collection of methods, practices, and design principles for software programmers, architects, and teams.
+
+== Rationale
+
+[.text-justify]
+M4M aims to help build better solutions where one software system provides value to multiple end users and stakeholders. Typically those are web-based applications, API or mobile app backends, server-side platforms with numerous clients, etc. Such solutions are subject to constantly changing requirements and tend to evolve rapidly. Some adverse side effects often arise when building those types of systems. For example:
+
+ * ever increasing {technical-depth}[technical depth, role="external", window="technical-depth"]
+ * growing {accidental-complexity}[accidental complexity, role="external", window="accidental-complexity"]
+ * untangleble {dependency-hell}[dependency hell, role="external", window="dependency-hell"]
+ * significant {overengineering}[over-engineering, role="external", window="overengineering"]
+
+And many more.
+
+[.text-justify]
+Some well-established methods, practices, and design principles help mitigate those side effects. The M4 methodology aims to provide meaningful, results-focused guidelines for applying those in software projects. Unlike other approaches, it resides above the coding level and focuses on goals and means to achieve them. Such an approach allows for flexible implementations while enforcing the fundamental principles.
+
+=== Applicability
+
+[.text-justify]
+The following types of software systems can significantly benefit from adopting the M4M practices:
+
+ * systems operating in large or complex domains
+ * systems that need to evolve constantly (over an extended timeframe)
+ * systems that need to be able to scale painlessly
+ * systems consisting of a large number of components
+ * systems consisting of components owned by distinct teams
+
+
+=== Impracticality
+
+[.text-justify]
+For the following types of software systems, adhering to the M4M may introduce additional complexity and not provide many (if any) benefits:
+
+ * frameworks and software development tools
+ * device drivers and controllers
+ * very simple or fixed, single-scope systems
+ * monolithic desktop or command line applications
+
+
+== Background
+
+[.text-justify]
+M4M is the collaborative effort of contributors who have spent many years designing, developing, scaling, and maintaining complex software systems. It is not academic research. It's an applicable summary that organizes and systematizes the fundamental characteristics of successful, maintainable, evolutionary, mission-critical solutions. It comes from long-lasting, collective, practical experience with multiple technical stacks and various design and implementation principles.

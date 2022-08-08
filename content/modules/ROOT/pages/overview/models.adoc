@@ -1,0 +1,50 @@
+= Models
+
+[quote, George E. P. Box]
+____
+All models are wrong, but some are useful
+____
+
+== Rationale
+
+[.text-justify]
+One of the main tasks _(often the first one)_ software engineers must accomplish is to define the data structures and operations that accurately represent the characteristics and functionality of `originals` _(natural or imaginary objects or systems)_. In other words, they create virtual `models`. A `model` may be very explicit _(for example, in object-oriented programming)_ or somewhat subtle _(for instance, in functional programming)_. Nevertheless, it is crucial as it affects the software system's scope and implies constraints.
+
+[.text-justify]
+Creating a 100% accurate `model` of any non-trivial `original` is virtually impossible. Furthermore, any modern programming language allows for multiple representations. For example, a `model` can be a single structure or multiple interlinked ones. It may or may not use inheritance, polymorphism, or other language-specific constructs. While those concepts are not relevant to the `original`, they impact the `model` and the system's ability to interact with it. Thus tremendous effort goes into making the most convenient `model` possible. Coming up with a suitable `model` is not only a baffling task but also one with long-lasting consequences.
+
+[NOTE.todo]
+====
+explain the issues / challenges
+
+ - premature design
+ - behavior as a function of state
+ - lack of wider understanding (outside IT)
+ - hard to change without braking related components
+
+====
+
+== Guidelines
+
+[NOTE.todo]
+====
+ - behavior vs state
+ - one behavior model multiple state models
+ - interactions through messages
+====
+
+== Value added
+
+[NOTE.todo]
+====
+ - shared understanding
+ - just enough design
+ - agility and resolvability
+====
+
+== Compliance evaluation
+
+[NOTE.todo]
+====
+define yes/no questions to ask when assessing if given concept/practice/product helps with building system according to the above
+====
